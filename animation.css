@@ -1,0 +1,22 @@
+div
+{
+height:100px;
+width:200px;
+background-color:green;
+animation-name:example;
+animation-duration:5s;
+animation-delay:2s;
+animation-iteration-count:infinite;
+animation-fill-mode:backward;
+}
+div:hover
+{
+animation-play-state:paused;
+}
+
+@keyframes example {
+0%{ background-color:yellow;}
+25%{ background-color:pink;}
+50%{border:14px solid cyan;}
+100%{border-radius:23px;}
+}
